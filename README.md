@@ -4,10 +4,27 @@ O objetivo do projeto **Viajei** é, compartilhar das experiências que vivemos,
 
 O **Viajei**, por razões apropriadas, é indicado para maiores de 14 (quartorze) anos. 
 
-# h1
-## h2
-### h3
-#### h4
-##### h5
+
+## O que é?
+
+O viajei será uma plataforma digital, em que as pessoas podem compartilhar suas experiências em formato de texto e deixar suas recomendações para outras pessoas.
+
+## Tecnologias:
+
+- FRONT-END:
+  - HTML;
+  - CSS;
+  - Javascript (?)
+- BACK-END:
+  - Python ou Node ou PHP;
+  - SQL;
+
+## Como rodar:
+
+TODO:
+
+## Licença:
+
+Esse projeto é amparado pela licença [MIT](./LICENSE)
 
 
