@@ -26,6 +26,8 @@ header {
 header img {
     max-height: 105%;
     margin: auto 0;
+    background-image: url(../images/test-image.avif),
+                        linear-gradient(rgba(252, 252, 220, 0.5), rgba(252, 252, 220, 0.5));
 }
 
 .link-do-cabecalho {
