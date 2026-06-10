@@ -15,3 +15,6 @@ class ContaBancaria:
         
         self.saldo = self.saldo - valor
         return True
+    
+    def transferir(self, conta_destino:"ContaBancaria", valor:float):
+        pass

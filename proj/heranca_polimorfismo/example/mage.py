@@ -1,4 +1,4 @@
-from character import Character
+from example.character import Character
 
 class Mage(Character):
 
