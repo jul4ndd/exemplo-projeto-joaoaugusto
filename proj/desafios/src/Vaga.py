@@ -9,7 +9,5 @@ class Vaga:
     horario_entrada: time
     disponível = True
 
-    def __init__(self, veiculo:Veiculo, capacidade:int, horario_entrada:time):
-        self.veiculo = veiculo
+    def __init__(self, capacidade:int):
         self.capacidade = capacidade
-        self.horario_entrada = horario_entrada

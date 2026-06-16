@@ -31,14 +31,21 @@ Esse projeto é para desenvolver e reforçar as habilidades de vocês com Python
 - As classes que herdam de Veículo não possuem métodos
 
 **** Vaga:
-- A classe Vaga não possui método
+- ~alocar_carro(self, veiculo: Veiculo, horario: datetime.time)~, este método deve alocar um carro a vaga e registrar o horário de entrada
+- ~liberar_vaga(self)~, deve remover o veículo da vaga e registrar o horário de saída da vaga 
 
 
 **** Estacionamento:
-- A classe Estacionamento possui a principal lógica do programa. Um template da classe está disponível <inserir_link>.
+- A classe Estacionamento possui a principal lógica do programa. Um template da classe está disponível [[aqui][src/Estacionamento.py]].
 
-- ~def estacionar(self, veiculo:Veiculo, numero_vaga:int)~ /multiplas assinaturas/
-- ~def adicionar_estacionamento(self, veiculo:Veciulo, numero_vaga:int, horario: datetime.time)~
+- ~def estacionar(self, veiculo:Veiculo) -> int~ 
+Esse método deve estacionar um veículo em uma vaga, para isso deve percorrer as vagas
+até encontrar a primeira que tenha capacidade para armazenar o veículo. O método deve fazer 
+uso do método ~alocar_carro~, presente em Vaga, para registrar a operação. Deve usar o horário atual como horário de entrada.
+Se não houver vagas, a função deve lançar um erro informando que o estacionamento está cheio. Mas se ainda houver vagas,
+deve retornar um erro que diga que não há vagas para esse veículo informado.
+
+- ~def adicionar_estacionamento(self, veiculo:Veiculo, numero_vaga:int, horario: datetime.time)~
 - ~def verificar_horario(self, numero_vaga:int)~
 - ~def checkout(self, vaga:)~
 
